@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlockchain.P2p", "MyBlockchain.P2p\MyBlockchain.P2p.csproj", "{96CB7E7E-6E42-4FC4-B3BD-153CDF722EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlockchain.P2p.TestImpl", "MyBlockchain.P2p.TestImpl\MyBlockchain.P2p.TestImpl.csproj", "{CF27024E-038F-4368-B742-C0122F8871EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlockchain.P2p.UnitTests", "MyBlockchain.P2p.UnitTests\MyBlockchain.P2p.UnitTests.csproj", "{2F68998B-E800-4C8B-B860-3B10D1952732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CB7E7E-6E42-4FC4-B3BD-153CDF722EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CB7E7E-6E42-4FC4-B3BD-153CDF722EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CB7E7E-6E42-4FC4-B3BD-153CDF722EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CB7E7E-6E42-4FC4-B3BD-153CDF722EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF27024E-038F-4368-B742-C0122F8871EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF27024E-038F-4368-B742-C0122F8871EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF27024E-038F-4368-B742-C0122F8871EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF27024E-038F-4368-B742-C0122F8871EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F68998B-E800-4C8B-B860-3B10D1952732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F68998B-E800-4C8B-B860-3B10D1952732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F68998B-E800-4C8B-B860-3B10D1952732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F68998B-E800-4C8B-B860-3B10D1952732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A70F953-BE3E-4C08-AE2F-96DB4D285770}
+	EndGlobalSection
+EndGlobal
