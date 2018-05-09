@@ -25,7 +25,7 @@ namespace MyBlockchain.P2p
         /// <summary>
         /// Ctor.
         /// </summary>
-        /// <param name="maxBucketSize"></param>
+        /// <param name="maxBucketSize"></param> 
         public KBucket(uint maxBucketSize) :
             base((int)maxBucketSize)
         {
