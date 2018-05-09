@@ -1,2 +1,2 @@
 # MyBlockchain
-A project in C# to learn blockchain technologies.
+ A homemade blockchain written in C# for practice
