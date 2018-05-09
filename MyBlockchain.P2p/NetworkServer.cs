@@ -145,7 +145,7 @@ namespace MyBlockchain.P2p
         /// Traitement de la requête.
         /// </summary>
         /// <param name="data"></param>
-        private void HandleRequest(byte[] data)
+        private void HandleRequest(byte[] data) 
         {
             Debug.WriteLine($"New node discovered with id {new NodeId(data)}");
         }
